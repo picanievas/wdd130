@@ -58,7 +58,7 @@ header nav {
   font-family: var(--paragraph-font);
   display: flex;
   justify-content: space-around;
-  background: var(--secondary-color);
+  background: var(--accent2-color);
   padding: 10px;
   border: 2px solid var(--accent1-color);
 }
