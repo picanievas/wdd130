@@ -190,6 +190,7 @@ figure img {
 
 .company-information iframe {
   margin: 1rem;
+  border: 0;
 }
 
 form {
