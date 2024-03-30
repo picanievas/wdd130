@@ -147,20 +147,80 @@ h2 {
   padding: 20px;
 }
 
-.adventure-awaits-you .grid {
+.grid {
   display: flex;
   justify-content: space-between;
 }
 
-.adventure-awaits-you figure {
+figure {
   background: #ddd;
   padding: 2px;
 }
 
-.adventure-awaits-you figcaption {
+figcaption {
   text-align: center;
+  font-family: var(--paragraph-font);
 }
 
-.adventure-awaits-you figure img {
-  width: 150px;
+figure img {
+  width: 200px;
+}
+
+.employee-profiles {
+  padding: 20px;
+  background-color: #8db87a;
+}
+
+.employee-profiles h2 {
+  color: #fff;
+}
+
+.employee-profiles .grid {
+  width: 750px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.company-information {
+  padding: 20px;
+  width: 750px;
+  margin: 0 auto;
+  font-family: var(--paragraph-font);
+}
+
+.company-information iframe {
+  margin: 1rem;
+}
+
+form {
+  display: grid;
+  width: 650px;
+  margin: 0 auto;
+  background: #eee;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+button {
+  background-color: navy;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+input,
+select,
+textarea {
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
