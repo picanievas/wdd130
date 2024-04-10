@@ -226,3 +226,88 @@ label {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+
+table {
+  background: #ddd;
+  margin: 0 auto;
+  width: 750px;
+  font-family: var(--paragraph-font);
+}
+
+th,
+td {
+  text-align: center;
+}
+
+tr {
+  margin-bottom: 1rem;
+}
+
+.featured-trips h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.featured-trips figure {
+  margin: 2rem;
+  border: 0.5rem solid var(--accent2-color);
+}
+
+.featured-trips img {
+  width: 100%;
+}
+
+.featured-trips figcaption {
+  margin: 1rem;
+}
+
+.trips-table table {
+  padding: 2rem;
+  background-color: var(--secondary-color);
+}
+
+.trips-table h2 {
+  margin-bottom: 2rem;
+}
+
+.call-to-action {
+  margin: 3rem;
+}
+
+.home-hero h2 {
+  background: var(--secondary-color);
+  padding: 2rem;
+}
+
+.newsletter-form {
+  margin: 2rem;
+}
+
+.grid-layout {
+  background-color: var(--accent2-color);
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.grid-layout div {
+  margin: 1rem;
+}
+
+.grid-layout article {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 2rem;
+}
+
+.grid-layout h2 {
+  text-align: left;
+}
+
+.grid-layout .right img {
+  width: 200px;
+}
